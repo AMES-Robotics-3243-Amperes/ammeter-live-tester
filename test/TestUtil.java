@@ -364,16 +364,12 @@ public class TestUtil {
     }
 
     /**
-     * <h2>WARNING: UNTESTED CODE</h2>
-     * <em>This should work, it's fairly simple, but you never know.</em>
      * A test with multiple phases that execute according to a timer. Created from several methods and timer values 
      */
     public static class TimedTest extends MultiphaseTest {
         protected Timer timer = new Timer();
 
         /**
-         * <h2>WARNING: UNTESTED CODE</h2>
-         * <em>This should work, it's fairly simple, but you never know.</em>
          * Creates a TimedTest.
          * @param phases An array of the functions to run.
          * @param durations An array describing how long each phase should last.
@@ -395,8 +391,6 @@ public class TestUtil {
         }
 
         /**
-         * <h2>WARNING: UNTESTED CODE</h2>
-         * <em>This should work, it's fairly simple, but you never know.</em>
          * Creates a TimedTest.
          * @param phases An array of the functions to run.
          * @param durations An array describing how long each phase should last.
@@ -408,8 +402,6 @@ public class TestUtil {
         }
 
         /**
-         * <h2>WARNING: UNTESTED CODE</h2>
-         * <em>This should work, it's fairly simple, but you never know.</em>
          * Creates a TimedTest.
          * @param phases An array of the functions to run.
          * @param durations An array describing how long each phase should last.
@@ -442,16 +434,12 @@ public class TestUtil {
     }
 
     /**
-     * <h2>WARNING: UNTESTED CODE</h2>
-     * <em>This should work, it's fairly simple, but you never know.</em>
      * Combines multiple tests into one test which runs each in succession. Similar
      * to SequentialCommandGroup.
      */
     public static class CombinedTest extends MultiphaseTest {
         
         /**
-         * <h2>WARNING: UNTESTED CODE</h2>
-         * <em>This should work, it's fairly simple, but you never know.</em>
          * Creates a CombinedTest.
          * @param components The test to be joined together in order.
          * @param name The name of the test.
@@ -463,8 +451,6 @@ public class TestUtil {
         }
 
         /**
-         * <h2>WARNING: UNTESTED CODE</h2>
-         * <em>This should work, it's fairly simple, but you never know.</em>
          * Creates a TimedTest.
          * @param phases An array of the functions to run.
          * @param durations An array describing how long each phase should last.
@@ -476,8 +462,6 @@ public class TestUtil {
         }
 
         /**
-         * <h2>WARNING: UNTESTED CODE</h2>
-         * <em>This should work, it's fairly simple, but you never know.</em>
          * Creates a TimedTest.
          * @param phases An array of the functions to run.
          * @param durations An array describing how long each phase should last.
