@@ -28,8 +28,8 @@ An installation guide follows as well.
     * Instant test (runs a piece of code exactly once)
 	* One phase test (runs a piece of code until a condition is met)
 	* Multiphase test (moves through sections of code as their conditions are met)
-	* To be integrated - Timed test (moves through sections of code according to durations)
-	* To be integrated - Combined test (Combines multiple tests into one, running them one by one)
+	* Timed test (moves through sections of code according to durations)
+	* Combined test (Combines multiple tests into one, running them one by one)
 
 ## Installation
 1. Download the files from this repo.
